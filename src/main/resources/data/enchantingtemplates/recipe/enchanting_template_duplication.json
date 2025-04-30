@@ -1,0 +1,6 @@
+{
+  "type": "enchantingtemplates:duplication_enchanting_recipe",
+  "duplication_ingredient": {
+    "item": "minecraft:emerald_block"
+  }
+}

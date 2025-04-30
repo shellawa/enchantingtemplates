@@ -1,0 +1,22 @@
+{
+  "type": "enchantingtemplates:smithing_enchant",
+  "template": {
+    "item": "enchantingtemplates:enchanting_template"
+  },
+  "addition": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "base": [
+    { "tag": "minecraft:enchantable/armor" },
+    { "tag": "minecraft:enchantable/weapon" },
+    { "tag": "minecraft:enchantable/mining" },
+    { "tag": "minecraft:enchantable/mining_loot" },
+    { "tag": "minecraft:enchantable/bow" },
+    { "tag": "minecraft:enchantable/crossbow" },
+    { "tag": "minecraft:enchantable/trident" },
+    { "tag": "minecraft:enchantable/fishing" },
+    { "tag": "minecraft:enchantable/durability" },
+    { "tag": "minecraft:enchantable/equippable" },
+    { "tag": "minecraft:enchantable/vanishing" }
+  ]
+}

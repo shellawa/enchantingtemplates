@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "enchantingtemplates",
+	"version": "${version}",
+	"name": "Enchanting Templates",
+	"description": "Add Enchanting Templates - A method to smithing and duplicating enchantments!",
+	"authors": [
+		"shellawa"
+	],
+	"contact": {
+		"homepage": "https://github.com/shellawa/enchantingtemplates",
+		"sources": "https://github.com/shellawa/enchantingtemplates"
+	},
+	"license": "MIT",
+	"icon": "assets/enchantingtemplates/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.asym.enchantingtemplates.EnchantingTemplates"
+		],
+		"fabric-datagen": [
+			"dev.asym.enchantingtemplates.EnchantingTemplatesDataGenerator"
+		],
+		"client": [
+			"dev.asym.enchantingtemplates.EnchantingTemplatesClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": "0.16.*",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}
